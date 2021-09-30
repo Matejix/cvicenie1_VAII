@@ -1,0 +1,36 @@
+body {
+    position: relative;
+    background-image:url(../img/sky.jpg);
+    background-size: cover;
+}
+
+img{
+    position: absolute;
+}
+
+.upperRightCorner{
+    right: 0;
+    top: 0;
+}
+.upperLeftCorner{
+    left: 0;
+    top: 0;
+    transform: scaleX(-1);
+}
+.lowerRightCorner{
+    right: 0;
+    bottom: 0;
+}
+.lowerLeftCorner{
+    left: 0;
+    bottom: 0;
+    
+    transform: scaleX(-1);
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
